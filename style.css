@@ -1,0 +1,31 @@
+/* Estilos básicos para la app */
+body {
+    background-color: #f8f9fa; /* Color de fondo claro */
+}
+
+/* Estilo del título principal */
+h1 {
+    color: #343a40; /* Color oscuro */
+    font-weight: bold;
+}
+
+/* Ajustes de la lista de notas para centrarla */
+#notesList {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos de cada item de la lista */
+.list-group-item {
+    display: flex;
+    justify-content: space-between; /* Para que el texto y el botón de eliminar estén separados */
+    align-items: center;
+}
+
+/* Botón de eliminar nota */
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: #dc3545; /* Color rojo para indicar eliminación */
+    cursor: pointer;
+}
